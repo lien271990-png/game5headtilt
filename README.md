@@ -1,11 +1,35 @@
-<div align="center">
+# Head Tilt Quiz Challenge
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A fun, interactive quiz game where you answer by tilting your head left or right!
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **AI-Powered Tracking**: Uses MediaPipe Face Landmarker to detect head tilt in real-time.
+- **Customizable Questions**: Built-in question editor to add, edit, or delete your own quiz questions.
+- **Immersive Audio**: Background music, sound effects for correct/wrong answers, and countdown ticks.
+- **Responsive Design**: Modern, dark-themed UI built with Tailwind CSS and Framer Motion.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## How to Play
+1. Allow camera access when prompted.
+2. Tilt your head to the **Left** to select **Option A**.
+3. Tilt your head to the **Right** to select **Option B**.
+4. Hold the tilt for a moment to confirm your selection.
+5. Try to get the highest score before time runs out!
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Deployment
+This project is ready to be deployed on **Netlify**, **Vercel**, or **GitHub Pages**.
+Simply run:
+```bash
+npm install
+npm run build
+```
+Then upload the `dist` folder to your hosting provider.
 
-</div>
+## Tech Stack
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- MediaPipe Tasks Vision
+- Canvas Confetti
+- Lucide React
